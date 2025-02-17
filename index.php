@@ -28,13 +28,13 @@
 			const inputLastName = document.createElement("Input");
 			inputLastName.type="text";
 			inputLastName.placeholder="Inster Last Name";
-			
+			inputLastName.name="last_name";
 			row2col1.append (inputLastName);
 			
 			const inputFirstName = document.createElement("input");
 			inputFirstName.type="text";
 			inputFirstName.placeholder="Insert First Name";
-			
+			inputFirstName.name="first_name";
 			row2col2.append (inputFirstName);
 			
 			const row3 = studentTable.insertRow();
